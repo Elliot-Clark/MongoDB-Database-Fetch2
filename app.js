@@ -1,6 +1,6 @@
 const { MongoClient } = require('mongodb');
 
-const URI = 'mongodb+srv://etcclark:S1nPcJiD2StrCTFP@cluster0.qev0ygz.mongodb.net/';
+const URI = 'CONNECTION STRING GOES HERE';
 const client = new MongoClient(URI);
 
 async function fetchDb() {
